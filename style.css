@@ -5,19 +5,19 @@ body{
 }
 section{
     display: flex;
-}
-.details{
-    width: 50%;
-    padding-left: 5%;
+    margin-bottom: 150px;
 }
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
+.details{
+    width: 50%;
+    padding-left: 5%;
+}
 .details img{
     width: 80%;
-    padding-left: 10%;
-   
+    padding-left: 10%;  
 }
 h1{
     font-size: 50px;
@@ -33,3 +33,14 @@ h1{
     padding: 10px 40px;
     border-radius: 7px;
 }
+/* <-----------> */
+
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 70px;
+    padding-left: 50px;
+}
+
+
